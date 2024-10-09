@@ -1,0 +1,249 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+*::before
+*::after{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* Header section css*/
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em; 
+}
+.header_title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    flex: 1;
+}
+.header_menu{
+    font-size: larger;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+.header_link:hover{
+
+    font-size: larger;
+    font-weight: bold;
+}
+.header_link{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+}
+ul li a{
+    
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+
+/* hero section css*/
+.hero{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.About{
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img img{
+    width: 70%;
+    border-radius: 150px;
+    border: 1px solid black;
+}
+.img img:hover{
+    transform: scale(1.1);
+}
+.greetings{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.description{
+    font-size: 1.2rem;
+}
+.about_desc{
+    padding: 20px;
+    
+}
+.btn a{
+    color: white;
+}
+
+
+
+/*Academics css*/
+.education_options{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.education{
+    margin-top: 0.2rem;
+}
+.education_title{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: -0.05rem;
+}
+.options{
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 300px;
+}
+.options:hover{
+    transform: scale(1.1);
+}
+.degree{
+    font-size: 2rem;
+}
+
+.college{
+    color: gray;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .9rem;
+    color: gray;
+}
+.course{
+    padding: 0.2em;
+}
+
+
+/*Experience css*/
+.experience{
+    margin-top: 0.2rem;
+    text-align: center;
+    padding: 50px;
+}
+.experience_titlee{
+    font-size: 3rem;
+    letter-spacing: -0.05;
+}
+
+.experience_container{
+    
+    justify-content: center;
+    gap: 1.5rem;
+}
+.experience_box{
+    margin-bottom: 15px;
+    border: 2px solid gray;
+    width: 600 ;
+    border-radius: 20px;
+    padding: 1em;
+}
+.experience_company{
+    color: gray;
+}
+.experience_title{
+    margin-top: 1%;
+    font-size: 2.5rem;
+}
+.experience_desc{
+    font-size: 1.3rem;
+}
+.certificate{
+    margin-bottom: 20px;
+}
+
+/* touch css*/
+.touch{
+    margin-top: 0rem;
+    text-align: center;
+    padding: 0px;
+}
+.touch_title{
+    font-size: 2.5rem;
+    letter-spacing: -0.05;
+}
+.touch_desc{
+    font-size: 2rem;
+    max-width: 60ch;
+    margin: 1em auto;
+}
+.touch_btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 1em 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.contact a{
+    color: rgb(75, 59, 120);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility classes*/
+.btn{
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: .5em 1em;
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1;
+    margin-right: 10px;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.experience_options{
+    display: flex;
+    gap: 10rem;
+
+}
+.container{
+    width: 90%;
+    margin-inline: auto;
+}
